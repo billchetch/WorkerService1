@@ -1,9 +1,9 @@
 [Unit]
-Description=chetch-worker-test
+Description=Chetch Worker Test
 
 [Service]
-Type=notify
-ExecStart=/usr/sbin/CodeMazeLinuxWorker
+Type=simple
+ExecStart=bash /home/pi/Documents/VisualStudioProjects/Tests/WorkerService1/WorkerService1/chetch-worker-test.sh
 
 [Install]
 WantedBy=multi-user.target

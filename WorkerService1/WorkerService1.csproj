@@ -9,6 +9,9 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting.Systemd" Version="9.0.0" />
-    <PackageReference Include="XmppDotNet" Version="3.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../../Libraries/Services/Services/Services.csproj" />
   </ItemGroup>
 </Project>

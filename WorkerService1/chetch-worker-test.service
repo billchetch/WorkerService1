@@ -1,0 +1,9 @@
+[Unit]
+Description=chetch-worker-test
+
+[Service]
+Type=notify
+ExecStart=/usr/sbin/CodeMazeLinuxWorker
+
+[Install]
+WantedBy=multi-user.target
